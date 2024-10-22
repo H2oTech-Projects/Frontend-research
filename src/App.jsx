@@ -127,12 +127,12 @@ function App() {
               fillOpacity={0.5}
               weight={5}
               eventHandlers={{
-                click: handlePolygonClick, // Open modal on click
+                click: handlePolygonClick,
                 mouseover: (e) => {
-                  e.target.setStyle({ fillColor: "lightgreen" }); // Change color on hover
+                  e.target.setStyle({ fillColor: "lightgreen" });
                 },
                 mouseout: (e) => {
-                  e.target.setStyle({ fillColor: "green" }); // Reset color when not hovering
+                  e.target.setStyle({ fillColor: "green" });
                 },
               }}
             >
